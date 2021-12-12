@@ -1,3 +1,5 @@
+#This is a Never Fail Computer and Normal Jump script
+
 local oldnc
 oldnc = hookmetamethod(game,"__namecall",newcclosure(function(name, ...)
        local Args = {...}
